@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#151b1a">
+  <meta name="description" content="A ADA identifica gargalos e conecta estratégia, marca, atendimento, processos e dados em sistemas inteligentes de crescimento e eficiência.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ADA.IA | Inteligência aplicada a negócios">
+  <meta property="og:description" content="O problema não é falta de ferramentas. É falta de conexão. Descubra como a ADA transforma gargalos em sistemas inteligentes.">
+  <meta property="og:locale" content="pt_BR">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>ADA.IA | Apresentação interativa</title>
+  <script src="config.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <div class="page-progress" aria-hidden="true"><span id="pageProgress"></span></div>
+  <header class="site-header" id="siteHeader">
+    <a href="#inicio" class="brand" aria-label="ADA.IA, início"><img src="assets/logo-light.png" alt="ADA.IA" width="139" height="42"></a>
+    <nav class="main-nav" aria-label="Navegação principal" id="mainNav">
+      <a href="#problema">O problema</a><a href="#metodo">Método</a><a href="#experiencia">Na prática</a><a href="#ecossistema">Soluções</a><a href="#fundador">Quem está por trás</a>
+    </nav>
+    <div class="header-actions">
+      <button class="header-mode" id="modeToggle" type="button" aria-pressed="false" title="Ativar modo apresentação"><span class="mode-icon">▣</span><span id="modeToggleLabel">Apresentar</span></button>
+      <a href="#diagnostico" class="btn btn-sm btn-mint header-cta">Diagnóstico <span aria-hidden="true">↗</span></a>
+      <button id="menuToggle" class="mobile-menu-toggle" aria-label="Abrir menu" aria-controls="mainNav" aria-expanded="false" type="button"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="chapter hero" id="inicio" data-chapter="01" data-title="Abertura" data-theme="dark">
+      <div class="hero-noise" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-pulse" aria-hidden="true"></span> INTELIGÊNCIA APLICADA A NEGÓCIOS <span class="eyebrow-line" aria-hidden="true"></span> 01 / 08</p>
+          <h1>Sua operação não precisa de <em>mais ferramentas.</em><span class="h1-accent">Precisa de conexão<span class="period">.</span></span></h1>
+          <p class="hero-lead">Transformamos gargalos de marca, comunicação e operação em sistemas inteligentes de crescimento e eficiência.</p>
+          <div class="hero-actions"><a class="btn btn-mint btn-lg" href="#diagnostico">Encontrar meu gargalo <span aria-hidden="true">↗</span></a><a class="text-link text-link-light" href="#problema">Conhecer a ADA <span aria-hidden="true">↓</span></a></div>
+          <div class="hero-signature"><span>ESTRATÉGIA</span><span class="sep"></span><span>CRIATIVIDADE</span><span class="sep"></span><span>EXECUÇÃO</span></div>
+        </div>
+        <div class="hero-art" aria-label="Ilustração de sistemas que passam de desconectados a integrados">
+          <div class="orbit orbit-outer"></div><div class="orbit orbit-mid"></div><div class="orbit orbit-small"></div>
+          <div class="orbit-cross orbit-cross-v"></div><div class="orbit-cross orbit-cross-h"></div>
+          <span class="satellite sat-1">MARCA <b>01</b></span><span class="satellite sat-2">ATENDIMENTO <b>02</b></span><span class="satellite sat-3">DADOS <b>03</b></span><span class="satellite sat-4">OPERAÇÃO <b>04</b></span>
+          <span class="orbit-spark spark-a" aria-hidden="true"></span><span class="orbit-spark spark-b" aria-hidden="true"></span>
+          <div class="orbit-core"><img src="assets/icon.png" alt="" width="116" height="116"><span>ARQUITETURA<br>ADA</span></div>
+          <div class="floating-ticket floating-ticket-top"><small>ARQUITETURA / 001</small><strong>Partes isoladas</strong><span>→ Sistema integrado</span></div>
+          <div class="floating-ticket floating-ticket-bottom"><span class="ticket-dot"></span><span>O fluxo não para na resposta.<br><strong>Ele chega à decisão.</strong></span></div>
+        </div>
+      </div>
+      <div class="hero-index container"><span>UMA APRESENTAÇÃO PARA ORGANIZAÇÕES QUE QUEREM FUNCIONAR MELHOR.</span><a href="#problema" aria-label="Ir para a próxima seção"><span>DESLIZE PARA EXPLORAR</span><span class="arrow-down">↓</span></a></div>
+    </section>
+
+    <section class="chapter problem-section section-space" id="problema" data-chapter="02" data-title="Gargalos" data-theme="light">
+      <div class="container">
+        <div class="section-kicker"><span>01 / O DIAGNÓSTICO</span><span>DO SINTOMA À CAUSA</span></div>
+        <div class="problem-intro reveal"><p class="eyebrow eyebrow-dark">O PROBLEMA REAL</p><h2>Seu problema pode não ser <span class="ink-soft">falta de equipe.</span><br>É o que acontece <span class="green-mark">entre as equipes.</span></h2><p>Quando marca, atendimento, marketing, sistemas e dados não conversam, a organização perde velocidade e visibilidade. Começamos pelo ponto onde o trabalho trava.</p></div>
+        <div class="problem-workspace reveal">
+          <div class="problem-list" role="group" aria-label="Escolha um gargalo para explorar">
+            <button class="problem-trigger is-active" type="button" data-problem="0" aria-pressed="true"><span class="problem-id">01</span><span class="problem-name">Atendimento fragmentado</span><span class="problem-arrow" aria-hidden="true">↗</span></button>
+            <button class="problem-trigger" type="button" data-problem="1" aria-pressed="false"><span class="problem-id">02</span><span class="problem-name">Trabalho manual</span><span class="problem-arrow" aria-hidden="true">↗</span></button>
+            <button class="problem-trigger" type="button" data-problem="2" aria-pressed="false"><span class="problem-id">03</span><span class="problem-name">Decisões sem visão</span><span class="problem-arrow" aria-hidden="true">↗</span></button>
+            <button class="problem-trigger" type="button" data-problem="3" aria-pressed="false"><span class="problem-id">04</span><span class="problem-name">Marketing desconectado</span><span class="problem-arrow" aria-hidden="true">↗</span></button>
+          </div>
+          <div class="problem-detail" aria-live="polite">
+            <div class="detail-top"><span class="micro-label" id="problemCounter">GARGALO / 01</span><span class="mini-glyph" aria-hidden="true">✳</span></div>
+            <div class="detail-body"><p class="detail-eyebrow">O QUE SUA EQUIPE SENTE</p><h3 id="problemTitle">Mensagens chegam. O histórico se perde.</h3><p id="problemDescription">O cidadão ou cliente fala com a organização, mas a demanda depende de alguém lembrar de encaminhar, registrar e responder.</p></div>
+            <div class="detail-outcome"><span>O QUE A ADA CONECTA</span><strong id="problemOutcome">Canais, registro, responsável e acompanhamento em um único fluxo.</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="chapter method-section section-space" id="metodo" data-chapter="03" data-title="Método A.D.A." data-theme="light">
+      <div class="container">
+        <div class="section-kicker"><span>02 / O MÉTODO</span><span>UM PROCESSO, NÃO UM PALPITE</span></div>
+        <div class="method-heading reveal"><p class="eyebrow eyebrow-dark">MÉTODO A.D.A.</p><h2>Não começamos pela ferramenta.<br><span class="ink-soft">Começamos pela pergunta certa.</span></h2></div>
+        <div class="method-layout reveal">
+          <div class="method-steps" role="tablist" aria-label="Etapas do método">
+            <button class="method-step is-active" type="button" role="tab" aria-selected="true" data-method="0"><span class="method-letter">A</span><span><small>01 / ENTENDER</small><strong>Analisar</strong></span><span class="method-step-arrow">↗</span></button>
+            <button class="method-step" type="button" role="tab" aria-selected="false" data-method="1"><span class="method-letter">D</span><span><small>02 / ARQUITETAR</small><strong>Desenhar</strong></span><span class="method-step-arrow">↗</span></button>
+            <button class="method-step" type="button" role="tab" aria-selected="false" data-method="2"><span class="method-letter">A</span><span><small>03 / COLOCAR EM MOVIMENTO</small><strong>Acelerar</strong></span><span class="method-step-arrow">↗</span></button>
+          </div>
+          <div class="method-explainer" role="tabpanel" aria-live="polite"><span class="method-giant-letter" id="methodLetter" aria-hidden="true">A</span><div class="method-explainer-main"><span class="micro-label" id="methodStage">ETAPA 01 / ANÁLISE</span><h3 id="methodHeadline">Antes de construir, descobrimos o que precisa mudar.</h3><p id="methodBody">Mapeamos a jornada, os responsáveis, os canais e as rupturas que custam tempo, qualidade ou oportunidades.</p><div class="method-deliverable"><span>ENTREGÁVEL</span><strong id="methodDeliverable">Diagnóstico ADA com mapa de gargalos e prioridades.</strong></div></div></div>
+        </div>
+        <div class="method-footer reveal"><span>DIAGNÓSTICO</span><i></i><span>BLUEPRINT</span><i></i><span>IMPLANTAÇÃO</span><i></i><span>OPERAÇÃO & EVOLUÇÃO</span></div>
+      </div>
+    </section>
+
+    <section class="chapter flow-section section-space" id="experiencia" data-chapter="04" data-title="Na prática" data-theme="dark">
+      <div class="container">
+        <div class="section-kicker light-kicker"><span>03 / VEJA FUNCIONAR</span><span>EXEMPLO ILUSTRATIVO, NÃO UM CASE</span></div>
+        <div class="flow-head reveal"><div><p class="eyebrow">DA MENSAGEM À DECISÃO</p><h2>O atendimento não termina<br>quando alguém responde.</h2></div><div class="flow-side"><p>Uma boa resposta inicia o fluxo. A inteligência está em conectar demanda, equipe, registro e acompanhamento.</p><div class="switch" role="group" aria-label="Escolha o cenário"><button type="button" class="switch-option is-active" data-scenario="business" aria-pressed="true">Empresa</button><button type="button" class="switch-option" data-scenario="gov" aria-pressed="false">Prefeitura</button></div></div></div>
+        <div class="flow-demo reveal">
+          <div class="flow-sidebar"><div class="flow-sidebar-head"><span class="status-pulse"></span> PERCORRA O FLUXO</div><div class="flow-steps" id="flowSteps" role="group" aria-label="Etapas da demonstração">
+            <button type="button" class="flow-step is-active" data-flow="0" aria-pressed="true"><b>01</b><span>Entrada</span><i></i></button>
+            <button type="button" class="flow-step" data-flow="1" aria-pressed="false"><b>02</b><span>Organização</span><i></i></button>
+            <button type="button" class="flow-step" data-flow="2" aria-pressed="false"><b>03</b><span>Encaminhamento</span><i></i></button>
+            <button type="button" class="flow-step" data-flow="3" aria-pressed="false"><b>04</b><span>Acompanhamento</span><i></i></button>
+            <button type="button" class="flow-step" data-flow="4" aria-pressed="false"><b>05</b><span>Visão gerencial</span><i></i></button>
+          </div><div class="flow-sidebar-foot">O objetivo não é automatizar tudo.<br>É deixar o processo visível e acionável.</div></div>
+          <div class="flow-screen">
+            <div class="screen-toolbar"><div class="traffic" aria-hidden="true"><i></i><i></i><i></i></div><span>ADA CORE / SIMULAÇÃO</span><span class="screen-toolbar-right" id="screenScene">EMPRESA</span></div>
+            <div class="screen-body"><div class="screen-topline"><div><small>PROCESSO ILUSTRATIVO</small><h3 id="flowHeadline">Tudo começa com uma mensagem.</h3></div><span class="stage-pill" id="flowPill">01 / ENTRADA</span></div>
+              <div class="visual-workspace" id="flowWorkspace"><div class="inbox-card"><div class="inbox-bar"><span class="avatar">C</span><div><b id="flowSender">Cliente</b><small id="flowChannel">WhatsApp · mensagem recebida</small></div><span class="verified-dot" aria-hidden="true"></span></div><p id="flowQuote">“Olá! Preciso de informações sobre o serviço e quero falar com alguém.”</p><div class="message-footer"><span>CANAL DE ENTRADA</span><span>↓ REGISTRAR DEMANDA</span></div></div><div class="trace-line"><i></i><span id="flowTrace">Canal identificado</span><i></i></div><div class="outcome-card"><span class="outcome-icon" aria-hidden="true">↗</span><span><small>PRÓXIMA AÇÃO</small><strong id="flowNext">Criar contexto para que a conversa não se perca.</strong></span></div></div>
+              <div class="screen-bottom"><p id="flowExplain">A mensagem entra pelo canal escolhido. O próximo passo é organizar o que foi solicitado.</p><button type="button" id="flowNextButton" class="flow-next">Próxima etapa <span aria-hidden="true">→</span></button></div>
+            </div>
+          </div>
+        </div>
+        <p class="flow-disclaimer">Demonstração conceitual. Funcionalidades e integrações dependem da configuração, escopo e validação de cada projeto.</p>
+      </div>
+    </section>
+
+    <section class="chapter ecosystem-section section-space" id="ecossistema" data-chapter="05" data-title="Ecossistema" data-theme="light">
+      <div class="container"><div class="section-kicker"><span>04 / O ECOSSISTEMA</span><span>UMA ARQUITETURA, VÁRIOS CONTEXTOS</span></div>
+        <div class="ecosystem-head reveal"><p class="eyebrow eyebrow-dark">CADA ORGANIZAÇÃO TEM UM DESAFIO</p><h2>Uma ADA.<br><span class="ink-soft">Diferentes formas de avançar.</span></h2><p>O trabalho começa pelo problema. As capacidades são combinadas conforme a realidade, a equipe e os resultados que precisam ser acompanhados.</p></div>
+        <div class="vertical-grid reveal">
+          <article class="vertical-card v-business"><div class="v-top"><span>01 / EMPRESAS</span><span aria-hidden="true">↗</span></div><div class="v-art business-art" aria-hidden="true"><i class="v-art-grid"></i><span>CRM</span><span>VENDAS</span><span>DADOS</span><b>↗</b></div><div class="v-bottom"><h3>ADA Business<span>.</span></h3><p>Marca, relacionamento e operação trabalhando juntos para reduzir atritos e sustentar crescimento.</p><a href="#diagnostico">Explorar meu cenário <span aria-hidden="true">↗</span></a></div></article>
+          <article class="vertical-card v-gov"><div class="v-top"><span>02 / GESTÃO PÚBLICA</span><span aria-hidden="true">↗</span></div><div class="v-art gov-art" aria-hidden="true"><div class="gov-building"><i></i><i></i><i></i><i></i><i></i><i></i></div><span>DEMANDA → SECRETARIA → STATUS</span></div><div class="v-bottom"><h3>ADA Gov<span>.</span></h3><p>Uma jornada organizada entre cidadão, atendimento, secretaria e gestão, com responsáveis e acompanhamento.</p><a href="#diagnostico">Explorar meu cenário <span aria-hidden="true">↗</span></a></div></article>
+          <article class="vertical-card v-politics"><div class="v-top"><span>03 / COMUNICAÇÃO INSTITUCIONAL</span><span aria-hidden="true">↗</span></div><div class="v-art politics-art" aria-hidden="true"><span class="politic-circles"><i></i><i></i><i></i><i></i></span><span>COMUNICAÇÃO · ORGANIZAÇÃO · DADOS</span></div><div class="v-bottom"><h3>ADA Politics<span>.</span></h3><p>Organização de canais, rotinas, conteúdo e relacionamento para equipes de campanhas e mandatos, com revisão humana.</p><a href="#diagnostico">Conhecer a vertical <span aria-hidden="true">↗</span></a></div></article>
+        </div>
+        <div class="capabilities-head reveal"><span class="micro-label">CAPACIDADES COMPARTILHADAS</span><p>Os produtos não são caixas isoladas. São recursos de uma arquitetura coerente.</p></div>
+        <div class="product-grid reveal"><div class="product-item"><span class="product-index">A / 01</span><h3>ADA Core<span>↗</span></h3><p>Relacionamento e operação: canais, registro, CRM, agenda, acompanhamento e visão gerencial.</p></div><div class="product-item"><span class="product-index">A / 02</span><h3>ADA Experts<span>↗</span></h3><p>Conhecimento organizado em especialistas digitais contextualizados, com limites e supervisão.</p></div><div class="product-item"><span class="product-index">A / 03</span><h3>ADA Studio<span>↗</span></h3><p>Branding, direção criativa e produção com critério humano e execução acelerada.</p></div></div>
+      </div>
+    </section>
+
+    <section class="chapter studio-section section-space" id="studio" data-chapter="06" data-title="ADA Studio" data-theme="dark">
+      <div class="container studio-grid"><div class="studio-copy reveal"><div class="section-kicker light-kicker"><span>05 / O DIFERENCIAL CRIATIVO</span></div><p class="eyebrow">ESTRATÉGIA + DIREÇÃO DE ARTE + TECNOLOGIA</p><h2>Inteligência também é saber <em>o que não criar.</em></h2><p>Exploramos possibilidades com velocidade. A curadoria, o posicionamento e as decisões que constroem uma marca continuam com direção humana.</p><div class="studio-tags"><span>BRANDING</span><span>DIREÇÃO CRIATIVA</span><span>DESIGN</span><span>WEB</span><span>CAMPANHAS</span></div></div>
+        <div class="studio-composition reveal" aria-label="Composição conceitual do sistema visual ADA"><div class="studio-frame frame-main"><span>ADA / BRAND SYSTEM</span><div class="frame-symbol"><img src="assets/icon.png" width="172" height="172" alt="Símbolo da ADA"></div><strong>Marcas que<br><em>fazem sentido.</em></strong><small>ESTRATÉGIA EM CADA PONTO DE CONTATO.</small></div><div class="studio-frame frame-floating"><span>01 / DIREÇÃO CRIATIVA</span><div class="floating-lines"><i></i><i></i><i></i></div><strong>Forma segue<br>intenção.</strong></div><div class="studio-frame frame-label"><span>ADA.STUDIO</span><span>HUMANO NO COMANDO</span><span class="tiny-dot"></span></div></div>
+      </div>
+    </section>
+
+    <section class="chapter founder-section section-space" id="fundador" data-chapter="07" data-title="Quem está por trás" data-theme="light"><div class="container"><div class="section-kicker"><span>06 / CREDIBILIDADE</span><span>EXPERIÊNCIA ANTES DA FERRAMENTA</span></div><div class="founder-layout reveal"><div class="founder-main"><p class="eyebrow eyebrow-dark">A EXPERIÊNCIA POR TRÁS DA ADA</p><h2>A ADA não nasceu<br><span class="ink-soft">de um prompt.</span></h2><p>Nasceu da combinação entre anos de experiência em comunicação, branding, direção de arte e marketing com uma nova capacidade de desenhar e executar sistemas inteligentes.</p><div class="founder-quote">“O design resolve a forma. A estratégia resolve a direção. A inteligência conecta tudo à execução.”</div></div><div class="founder-profile"><div class="profile-avatar" aria-hidden="true"><span>RT<span class="avatar-dot">.</span></span><div class="profile-corner">ESTRATÉGIA<br>× EXECUÇÃO</div></div><div class="profile-details"><span>FUNDADOR & ESTRATEGISTA</span><h3>Ricardo<br>Tiburcio<span>.</span></h3><p>Mais de duas décadas em publicidade, design, branding e direção criativa. A ADA é a evolução dessa experiência aplicada a negócios.</p></div></div></div></div></section>
+
+    <section class="chapter conversion-section section-space" id="diagnostico" data-chapter="08" data-title="Diagnóstico ADA" data-theme="dark"><div class="container conversion-grid"><div class="conversion-copy reveal"><div class="section-kicker light-kicker"><span>07 / PRÓXIMO PASSO</span><span>COMECE PELO QUE IMPORTA</span></div><p class="eyebrow">DIAGNÓSTICO ADA</p><h2>Seu gargalo não precisa <em>virar custo.</em></h2><p>Conte onde sua organização está travando. A conversa começa com o problema, não com um pacote de ferramentas.</p><div class="conversion-sequence"><span>01 / ENTENDER</span><i></i><span>02 / PRIORIZAR</span><i></i><span>03 / DESENHAR</span></div><div class="conversion-note"><img src="assets/icon.png" alt="" width="35" height="35"><span>O diagnóstico é o ponto de partida. A solução é definida depois, conforme o contexto.</span></div></div><div class="diagnostic-panel reveal"><span class="form-kicker">01 / 03 · PREPARE SEU BRIEFING</span><h3>Por onde começamos?</h3><p>Preencha o essencial. Nesta demonstração, o briefing fica pronto para você copiar. O envio comercial será ativado quando o canal da ADA estiver configurado.</p><form id="diagnosticForm"><div class="field-group"><label for="fieldName">Seu nome</label><input id="fieldName" name="name" type="text" placeholder="Como podemos chamar você?" autocomplete="name" maxlength="100" required></div><div class="field-group"><label for="fieldOrg">Organização</label><input id="fieldOrg" name="organization" type="text" placeholder="Nome da empresa ou instituição" autocomplete="organization" maxlength="120" required></div><div class="field-group"><label for="fieldType">Contexto</label><select id="fieldType" name="type" required><option value="" selected disabled>Selecione uma opção</option><option>Empresa</option><option>Prefeitura / instituição pública</option><option>Campanha ou mandato</option><option>Outro</option></select></div><div class="field-group"><label for="fieldPain">O que precisa funcionar melhor?</label><textarea id="fieldPain" name="pain" rows="3" maxlength="700" placeholder="Ex.: atendemos por muitos canais, mas não conseguimos acompanhar cada solicitação." required></textarea></div><button class="btn btn-mint btn-full" type="submit">Preparar meu diagnóstico <span aria-hidden="true">↗</span></button><span class="form-footnote">Sem envio automático ou promessa de análise nesta versão de demonstração.</span></form><div class="brief-result" id="briefResult" hidden aria-live="polite"><span class="micro-label">BRIEFING PREPARADO</span><pre id="briefText"></pre><div class="brief-actions"><button type="button" class="btn btn-mint" id="copyBrief">Copiar briefing</button><button type="button" class="text-button" id="editBrief">Editar respostas</button></div><p id="copyStatus" class="copy-status" role="status"></p></div></div></div>
+      <footer class="site-footer container"><div class="footer-brand"><img src="assets/logo-light.png" alt="ADA.IA" width="150" height="48"><span>INTELIGÊNCIA APLICADA A NEGÓCIOS.</span></div><div class="footer-right"><span>APRESENTAÇÃO INTERATIVA / V2</span><a href="#inicio">VOLTAR AO INÍCIO ↑</a></div></footer>
+    </section>
+  </main>
+  <div class="presentation-controls" id="presentationControls" hidden><div class="present-title"><span>ADA.IA / <span id="presentSection">ABERTURA</span></span><small id="presentCount">01 / 08</small></div><div class="present-buttons"><button type="button" id="presentPrev" aria-label="Capítulo anterior">←</button><button type="button" id="presentNext" aria-label="Próximo capítulo">→</button><button type="button" id="presentExit" class="present-exit" aria-label="Sair do modo apresentação">✕</button></div></div>
+</body>
+</html>
